@@ -29,3 +29,4 @@ Screenshots will be shared once site is ready and hosted
 
 ## Credits
 - Wireframe via Freehand: https://www.invisionapp.com/freehand
+- Video cutter: https://online-video-cutter.com/ 
