@@ -1,11 +1,12 @@
 import './App.css';
 import BackgroundVideo from './BackgroundVideo'
+import Bio from './Bio'
 
 function App() {
   return (
     <div className="App">
       <BackgroundVideo />
-      <h1> Welcome Test </h1>
+      <Bio />
     </div>
   );
 }
