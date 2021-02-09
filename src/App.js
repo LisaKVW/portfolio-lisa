@@ -2,6 +2,7 @@ import './App.css';
 import BackgroundVideo from './BackgroundVideo'
 import Bio from './Bio'
 import Languages from './Languages'
+import Projects from './Projects'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <BackgroundVideo />
       <Bio />
       <Languages />
+      <Projects />
     </div>
   );
 }

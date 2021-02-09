@@ -2,16 +2,20 @@ import React from 'react'
 
 const Projects = () => {
   return (
-    <div>
-
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;" />
+        </div>
+        <div class="flip-card-back">
+          <h1>John Doe</h1>
+          <p>Architect & Engineer</p>
+          <p>We love that guy</p>
+        </div>
+      </div>
     </div>
   )
 }
 
 export default Projects
 
-// tot pop out cards:
-// https://codepen.io/akhil_001/pen/zoQdaO 
-
-// create hover card: 
-//https://codedaily.io/tutorials/62/Create-a-Hoverable-Display-Card-with-React-and-Emotion
