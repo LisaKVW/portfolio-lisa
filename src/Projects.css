@@ -1,0 +1,64 @@
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.5s ease;
+  text-align: center;
+}
+
+.col:hover .overlay {
+  /* display: block; */
+  position: relative;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, .3);
+}
+
+img {
+  position: static;
+  left: 0;
+  text-align: center;
+}
+
+.title {
+  position: absolute;
+  width: 50%;
+  margin-left: 26%;
+  left: 0;
+  top: 18px;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  z-index: 1;
+  transition: top .5s ease;
+}
+
+.col:hover .title {
+  top: 30px;
+}
+
+a {
+  position: absolute;
+  width: 22%;
+  height: auto;
+  top: 135px;
+  opacity: 0;
+  transition: opacity .35s ease;
+  background-color: black;
+  color: white;
+  border: solid 2px white;
+  display: block;
+  margin-left: 40%;
+  margin-right: 50%;
+}
+
+
+.col:hover a {
+  opacity: 1;
+}
+
