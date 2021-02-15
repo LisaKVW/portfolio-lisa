@@ -15,9 +15,9 @@ const Projects = () => {
                 <p className="title"> The Dutch Chef </p>
                 <div className="overlay"></div>
                 <a href="https://the-dutch-chef.herokuapp.com/" > Site </a>
-              </div>
-              <div className="card-content" style={{ padding: "8px", minHeight: "149px" }} >
-                <p> This website is made with my own created recipe database using postgreSQL. As a user you can find delicious recipes and restaurant stories through the eyes of the Dutch Chef and sign-up for updates in the contact tab.</p>
+                <div className="card-content" style={{ padding: "8px", minHeight: "149px" }} >
+                  <p> This website is made with my own created recipe database using postgreSQL. As a user you can find delicious recipes and restaurant stories through the eyes of the Dutch Chef. Sign-up for updates in the contact tab.</p>
+                </div>
               </div>
             </div>
           </div>
@@ -32,8 +32,8 @@ const Projects = () => {
                 <div className="overlay"></div>
                 <a href="https://mixology-at-home.netlify.app/" > Site </a>
               </div>
-              <div className="card-content" style={{ padding: "8px", minHeight: "149px" }} >
-                <p> This app uses the cocktaildb API and allows you to find almost any cocktail by name. Had a long day, click the 'Chuck Norris' pun button!.</p>
+              <div className="card-content" style={{ padding: "8px", minHeight: "158px" }} >
+                <p> This app uses the cocktaildb API and allows you to find almost any cocktail by name. For fun a 'Chuck Norris' pun button has been added, this for some good puns while mixing drinks.</p>
               </div>
             </div>
           </div>
@@ -48,7 +48,7 @@ const Projects = () => {
                 <div className="overlay"></div>
                 <a href="https://game-insider.herokuapp.com/" > Site </a>
               </div>
-              <div className="card-content" style={{ padding: "8px", minHeight: "149px" }} >
+              <div className="card-content" style={{ padding: "8px", minHeight: "158px" }} >
                 <p> This webiste uses the RAWG API for up-to-date video game information. Sign up/in and chat and read game news.</p>
               </div>
             </div>

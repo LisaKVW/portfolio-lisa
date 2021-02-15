@@ -3,6 +3,7 @@ import BackgroundVideo from './BackgroundVideo'
 import Bio from './Bio'
 import Languages from './Languages'
 import Projects from './Projects'
+import Contact from './Contact'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Bio />
       <Languages />
       <Projects />
+      <Contact />
     </div>
   );
 }
