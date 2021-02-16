@@ -1,11 +1,12 @@
 import React, { useState } from 'react'
 import axios from 'axios'
-
+import sendmail from './functions/sendmail'
 
 const Contact = () => {
   const [data, setData] = useState({ name: '', email: '', message: '', sent: false, buttonText: 'Submit', err: '' })
 
   const handleChange = (e) => {
+    console.log(e)
     const { name, value } = e.target
     setData({
       ...data,
@@ -70,28 +71,28 @@ const Contact = () => {
         {/* Fill in Name */}
         <div className="row">
           <div className="input-field col s12">
-            <input placeholder="Name" id="first_name" type="text" className="validate" value={data.name} onChange={handleChange} />
+            <input placeholder="Name" type="text" className="validate" label="Full name" variant="filled" id="full-name" name="name" value={data.name} onChange={handleChange} />
             <label for="first_name">Name</label>
           </div>
         </div>
         {/*Fill in email  */}
         <div className="row">
           <div className="input-field col s12">
-            <input id="email" type="email" className="validate" value={data.email} onChange={handleChange} />
+            <input id="email" type="email" className="validate" required label="Email" name="email" variant="filled" value={data.email} onChange={handleChange} />
             <label for="email">Email</label>
           </div>
         </div>
         {/* Fill in message */}
         <div className="row">
           <div className="input-field col s12">
-            <textarea id="icon_prefix2" className="materialize-textarea" value={data.message} onChange={handleChange} ></textarea>
+            <textarea id="icon_prefix2" className="materialize-textarea" required label="Message" variant="filled" name="message" multiline={true} rows="10" value={data.message} onChange={handleChange}  ></textarea>
             <label for="icon_prefix2">Message</label>
           </div>
         </div>
         {/* button */}
         <div className="row">
           {/* <button className="btn waves-effect waves-light" type="submit" name="action" onClick={formSubmit}>{data.buttonText}>Submit </button> */}
-          <button className="btn waves-effect waves-light" variant="contained" color="primary" onClick={formSubmit}>{data.buttonText}</button>
+          <button className="btn waves-effect waves-light" variant="contained" color="primary" type="submit" onClick={formSubmit}>{data.buttonText}</button>
         </div>
       </form>
     </div>
