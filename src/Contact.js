@@ -22,32 +22,40 @@ const Contact = () => {
           data-netlify="true"
         >
           <input type="hidden" name="form-name" value="contact" />
+          <label for="name" style={{ float: "left" }}> Name </label>
           <textarea
             required
             label="name"
             name="name"
             placeholder="Name"
+            style={{ resize: "none", border: "none", borderBottom: "2px solid black" }}
           />
+          <label for="email" style={{ float: "left" }}> Email </label>
           <textarea
             required
             label="email"
             name="email"
             placeholder="email"
+            style={{ resize: "none", border: "none", borderBottom: "2px solid black" }}
           />
+          <label for="subject" style={{ float: "left" }}> Subject </label>
           <textarea
             required
             label="subject"
             name="subject"
-            placeholder=""
+            placeholder="subject"
+            style={{ resize: "none", border: "none", borderBottom: "2px solid black" }}
           />
+          <label for="message" style={{ float: "left" }}> Message </label>
           <textarea
             required
             multiline
             label="message"
             name="message"
             placeholder="message"
+            style={{ resize: "none", border: "none", borderBottom: "2px solid black" }}
           />
-          <div class="row">
+          <div class="row" style={{ marginTop: "4%" }}>
             <button class="btn waves-effect waves-light" type="submit" name="action">Submit
             </button>
           </div>
