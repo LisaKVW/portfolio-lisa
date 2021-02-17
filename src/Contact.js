@@ -11,7 +11,7 @@ const Contact = () => {
 
   return (
     < div >
-      <div className="contact-border" style={{ margin: "0 15% 0 15%", border: "5px solid white", borderRadius: "24px", boxShadow: "rgb(238 238 238) 1px 8px 8px 8px" }}>
+      <div className="contact-border" style={{ margin: "0 15% 0 15%", border: "5px solid white", borderRadius: "24px", boxShadow: "rgb(238 238 238) 8px 8px 8px 8px", padding: "10px" }}>
         <h3>CONTACT</h3>
         {success && <p style={{ color: "green" }}>Thanks for your message! </p>}
 
@@ -67,11 +67,11 @@ const Contact = () => {
 
       <div className="icon-wrap" style={{ marginBottom: "8%", marginTop: "3%" }} >
         <div style={{ display: 'inline', paddingRight: "5%" }}>
-          <img src="https://cdn.freelogovectors.net/wp-content/uploads/2016/12/github-logo-mark.png" alt="github logo" style={{ width: "14%" }}></img>
+          <img src="https://cdn.freelogovectors.net/wp-content/uploads/2016/12/github-logo-mark.png" alt="github logo" style={{ width: "6%", hover: "cursor: pointer" }} onClick={() => window.open("https://github.com/LisaKVW", "_blank")} />
         </div>
 
         <div style={{ display: 'inline', paddingTop: "10px", paddingLeft: "3%" }}>
-          <img src="https://www.freepnglogos.com/uploads/linkedin-basic-round-social-logo-png-13.png" alt="Linkedin logo" style={{ width: "14%" }}></img>
+          <img src="https://www.freepnglogos.com/uploads/linkedin-basic-round-social-logo-png-13.png" alt="Linkedin logo" style={{ width: "6%" }} onClick={() => window.open("https://www.linkedin.com/in/lisa-venneker-wand/", "_blank")} ></img>
         </div>
 
       </div>
