@@ -15,7 +15,7 @@ const Projects = () => {
                 <p className="title" > The Dutch Chef </p>
                 <div className="overlay"></div>
                 <a href="https://the-dutch-chef.herokuapp.com/" > Site </a>
-                <div className="card-content" style={{ padding: "8px", minHeight: "149px" }} >
+                <div className="card-content" style={{ padding: "8px", minHeight: "21vh" }} >
                   <p> A PERN fullstack site. As an user you can find delicious recipes and restaurant stories through the eyes of the Dutch Chef. Sign-up for updates in the contact tab, created vwith Mailchimp API. </p>
                 </div>
               </div>
@@ -32,7 +32,7 @@ const Projects = () => {
                 <div className="overlay"></div>
                 <a href="https://mixology-at-home.netlify.app/" > Site </a>
               </div>
-              <div className="card-content" style={{ padding: "8px", minHeight: "158px" }} >
+              <div className="card-content" style={{ padding: "8px", height: "21vh" }} >
                 <p> This app uses the cocktailDB API and allows you to find almost any cocktail by name. For fun a 'Chuck Norris' pun button has been added, this for some good puns while mixing drinks.</p>
               </div>
             </div>
@@ -44,12 +44,11 @@ const Projects = () => {
             <div className="card" >
               <div className="card-image">
                 <img src="https://images.pexels.com/photos/2708981/pexels-photo-2708981.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="gameboy old school" />
-
                 <p className="title"> Game Insider </p>
                 <div className="overlay"></div>
                 <a href="https://game-insider.herokuapp.com/" > Site </a>
               </div>
-              <div className="card-content" style={{ padding: "8px", minHeight: "158px" }} >
+              <div className="card-content" style={{ padding: "8px", height: "21vh" }} >
                 <p> A MERN fullstack site, using the RAWG API for up-to-date video game information. Sign up/in and chat and read game news.</p>
               </div>
             </div>
@@ -65,7 +64,7 @@ const Projects = () => {
                 <div className="overlay"></div>
                 <a href="https://your-weather-react.netlify.app/" > Site </a>
               </div>
-              <div className="card-content" style={{ padding: "8px", minHeight: "149px" }} >
+              <div className="card-content" style={{ padding: "8px", height: "21vh" }} >
                 <p> A simple weather app made with react. Use the app to find the weather of your searched location in Celcius and Fahrenheit. Weather data provided by OpenWeatherMap API.</p>
               </div>
             </div>
@@ -81,7 +80,7 @@ const Projects = () => {
                 <div className="overlay"></div>
                 <a href="https://your-weather-javas.netlify.app/" > Site </a>
               </div>
-              <div className="card-content" style={{ padding: "8px", minHeight: "149px" }} >
+              <div className="card-content" style={{ padding: "8px", height: "21vh" }} >
                 <p> A simple app to find the weather of your searched location in Celcius and Fahrenheit, made with HTML, CSS and Vanilla Javascript Weather data provided by OpenWeatherMap API.</p>
               </div>
             </div>
