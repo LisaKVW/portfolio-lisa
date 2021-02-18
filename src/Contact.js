@@ -65,7 +65,8 @@ const Contact = () => {
 
       </div>
 
-      <div className="icon-wrap" style={{ marginBottom: "8%", marginTop: "3%" }} >
+      <div className="icon-wrap" style={{ marginBottom: "4%", marginTop: "3%" }} >
+        <h3 style={{marginBottom:"3%"}}>Connect</h3>
         <div style={{ display: 'inline', paddingRight: "5%" }}>
           <img src="https://cdn.freelogovectors.net/wp-content/uploads/2016/12/github-logo-mark.png" alt="github logo" style={{ width: "6%", cursor: "pointer" }} onClick={() => window.open("https://github.com/LisaKVW", "_blank")} />
         </div>
@@ -83,16 +84,3 @@ export default Contact
 
 
 
-  // < div className = "icon-wrap" style = {{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", marginBottom: "15%", marginTop: "7%" }}>
-  //       <div className="row">
-  //         <div className="col s12 m6" style={{ width: "auto" }}>
-  //           <img src="https://pics.freeicons.io/uploads/icons/png/4422549621553664904-512.png" alt="github logo" style={{ width: "14%", marginRight: "0" }}></img>
-  //         </div>
-  //       </div>
-
-  //       <div className="row">
-  //         <div className="col s12 m6" style={{ width: "auto" }}>
-  //           <img src="https://180dc.org/wp-content/uploads/2020/01/Linkedin-logo-1-550x550-300x300.png" alt="Linkedin logo" style={{ width: "17%" }}></img>
-  //         </div>
-  //       </div>
-  //     </div >

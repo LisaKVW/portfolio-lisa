@@ -5,6 +5,8 @@ min-height: 100vh;
 min-width: 100vw;
 position: relative;
 top: 0; bottom: 0; left: 0; right: 0;
+background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+font-family: 'Benne', serif;
 }
 
 /* body {

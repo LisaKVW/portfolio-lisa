@@ -14,7 +14,7 @@ const BackgroundVideo = () => {
       <div className={classes.Content}>
         <div className={classes.Subcontent}>
           <h1> Lisa V. Wand </h1>
-          <p> Full Stack Web Developer | Software Engineer | Sales | Food Traveler </p>
+          <p style={{ fontSize: "18px" }}> Full Stack Web Developer | Software Engineer | Sales | Food Traveler </p>
         </div>
       </div>
     </div>
