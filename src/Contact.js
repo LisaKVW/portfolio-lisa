@@ -31,33 +31,33 @@ const Contact = () => {
               placeholder="Name"
               style={{ resize: "none", border: "none", borderBottom: "2px solid black" }}
             />
-            <label for="email" style={{ float: "left" }}> Email </label>
+            <label for="Email" style={{ float: "left" }}> Email </label>
             <textarea
               required
               label="email"
               name="email"
-              placeholder="email"
+              placeholder="Email"
               style={{ resize: "none", border: "none", borderBottom: "2px solid black" }}
             />
-            <label for="subject" style={{ float: "left" }}> Subject </label>
+            <label for="sSubject" style={{ float: "left" }}> Subject </label>
             <textarea
               required
               label="subject"
               name="subject"
-              placeholder="subject"
+              placeholder="Subject"
               style={{ resize: "none", border: "none", borderBottom: "2px solid black" }}
             />
-            <label for="message" style={{ float: "left" }}> Message </label>
+            <label for="Message" style={{ float: "left" }}> Message </label>
             <textarea
               required
               multiline
               label="message"
               name="message"
-              placeholder="message"
+              placeholder="Message"
               style={{ resize: "none", border: "none", borderBottom: "2px solid black" }}
             />
             <div class="row" style={{ marginTop: "4%" }}>
-              <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+              <button class="btn waves-effect waves-light" type="submit" name="action">Send Message
             </button>
             </div>
           </form>
@@ -66,7 +66,7 @@ const Contact = () => {
       </div>
 
       <div className="icon-wrap" style={{ marginBottom: "4%", marginTop: "3%" }} >
-        <h3 style={{marginBottom:"3%"}}>Connect</h3>
+        <h3 style={{ marginBottom: "3%" }}>Connect</h3>
         <div style={{ display: 'inline', paddingRight: "5%" }}>
           <img src="https://cdn.freelogovectors.net/wp-content/uploads/2016/12/github-logo-mark.png" alt="github logo" style={{ width: "6%", cursor: "pointer" }} onClick={() => window.open("https://github.com/LisaKVW", "_blank")} />
         </div>

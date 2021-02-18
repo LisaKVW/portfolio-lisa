@@ -11,7 +11,7 @@ const Bio = () => {
         <section className="about-me">
           <h3> About Me </h3>
           <p style={{ fontSize: "16px" }}>
-            I am a software engineer/sales egineer with a high drive to continuously learn and develop exciting innovations.
+            I am a software engineer/sales engineer with a high drive to continuously learn and develop exciting innovations.
             My professional background in hospitality operations and sales management have developed my forte for solving complex problems, created my strong interpersonal skills and gave me the ability work in
             large collaborative teams. I am thrilled to deliver efficient debugging solutions and eager to create/deploy new exciting
             features to production and to new apps/sites.
