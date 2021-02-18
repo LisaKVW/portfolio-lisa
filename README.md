@@ -1,11 +1,12 @@
 # Portfolio Lisa V. Wand
 
-Date: February 7, 2021
+Date: February 18, 2021
 
 By: Lisa Venneker Wand
 
 [GitHub](https://github.com/LisaKVW) |
-[LinkedIn](https://www.linkedin.com/in/lisa-venneker-wand-8413ab25/) 
+[LinkedIn](https://www.linkedin.com/in/lisa-venneker-wand-8413ab25/) |
+[Lisa Wand Site](https://lisawand.netlify.app/) 
 
 ## Description
 Site to share Lisa's portfolio.
@@ -21,7 +22,9 @@ Have a look at Lisa's programming work and reach out if like you have any questi
 
 ## Screenshots
 Screenshots will be shared once site is ready and hosted
-![screenshot1]()
+![screenshot1](https://i.imgur.com/aesogD7.png)
+![screenshot2](https://i.imgur.com/o5KTMLL.png)
+![screenshot3](https://i.imgur.com/eFQbm2X.png)
 
 
 ## Future Updates
@@ -30,3 +33,6 @@ Screenshots will be shared once site is ready and hosted
 ## Credits
 - Wireframe via Freehand: https://www.invisionapp.com/freehand
 - Video cutter: https://online-video-cutter.com/ 
+- Imgur, for image upload: https://imgur.com/
+- Pexels - https://www.pexels.com/
+- IMGBB, for image upload: https://imgbb.com/ 
