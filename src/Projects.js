@@ -78,7 +78,7 @@ const Projects = () => {
                 <img src="https://images.pexels.com/photos/364100/pexels-photo-364100.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="purle sky palm trees" />
                 <p className="title" style={{ color: "black" }}> Weather Javascript</p>
                 <div className="overlay"></div>
-                <a href="https://your-weather-javas.netlify.app/" > Site </a>
+                <a href="https://your-weather-javascript.netlify.app/" > Site </a>
               </div>
               <div className="card-content" style={{ padding: "8px", height: "21vh" }} >
                 <p> A simple app to find the weather of your searched location in Celcius and Fahrenheit, made with HTML, CSS and Vanilla Javascript Weather data provided by OpenWeatherMap API.</p>
