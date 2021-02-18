@@ -3,7 +3,7 @@ import React from 'react'
 const Languages = () => {
   return (
     <div style={{ marginTop: "2%" }}>
-      <h1> Skills </h1>
+      <h3> Skills </h3>
       <div className="grid-hold" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(270px, 1fr))", width: "70%", marginTop: "6vh", margin: "0 auto", rowGap: "0", marginTop: "5%", marginBottom: "5%" }}>
         {/* CARD 1 */}
         <div className="row">
