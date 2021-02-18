@@ -8,11 +8,7 @@ const Languages = () => {
         {/* CARD 1 */}
         <div className="row">
           <div className="col s12 m6" style={{ width: "auto" }}>
-            <div className="card" >
-              <div className="card-image">
-                <img src="https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png" />
-              </div>
-            </div>
+            <img src="https://i.ibb.co/TcpnjKQ/Mongo-DB-Logo.jpg" style={{ width: "20%" }} />
           </div>
         </div>
       </div>
