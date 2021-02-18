@@ -21,7 +21,7 @@ Have a look at Lisa's programming work and reach out if like you have any questi
 ![wireframe](./img/PortfolioWireframe.png)
 
 ## Screenshots
-Screenshots will be shared once site is ready and hosted
+
 ![screenshot1](https://i.imgur.com/aesogD7.png)
 ![screenshot2](https://i.imgur.com/o5KTMLL.png)
 ![screenshot3](https://i.imgur.com/eFQbm2X.png)
