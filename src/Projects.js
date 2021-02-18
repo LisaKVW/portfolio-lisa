@@ -94,5 +94,3 @@ const Projects = () => {
 
 export default Projects
 
-// Source tip to have button show up upon hover:
-// https://codepen.io/philcheng/pen/YWyYwG 
